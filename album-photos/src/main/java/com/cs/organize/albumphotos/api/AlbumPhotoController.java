@@ -5,7 +5,7 @@
 
 package com.cs.organize.albumphotos.api;
 
-import com.cs.organize.albumphotos.model.out.AlbumOutput;
+import com.cs.organize.albumphotos.dao.out.AlbumOutput;
 import com.cs.organize.albumphotos.service.AlbumPhotoService;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -9,13 +9,12 @@ import com.cs.organize.albumphotos.domain.entity.PhotoEntity;
 import com.cs.organize.albumphotos.exceptions.ResourceNotFoundException;
 import com.cs.organize.albumphotos.domain.entity.AlbumEntity;
 import com.cs.organize.albumphotos.domain.repo.AlbumsRepository;
-import com.cs.organize.albumphotos.model.out.AlbumOutput;
-import com.cs.organize.albumphotos.model.out.PhotoOutput;
+import com.cs.organize.albumphotos.dao.out.AlbumOutput;
+import com.cs.organize.albumphotos.dao.out.PhotoOutput;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class AlbumPhotoService {
